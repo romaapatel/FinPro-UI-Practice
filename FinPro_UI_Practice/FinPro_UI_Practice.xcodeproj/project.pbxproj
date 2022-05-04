@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF52A4492822C0C6008B48A0 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF52A4482822C0C6008B48A0 /* OnBoarding.storyboard */; };
+		FF52A44D2823AFAB008B48A0 /* FinProOnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A44C2823AFAB008B48A0 /* FinProOnBoardingViewController.swift */; };
+		FF52A44F2823B20F008B48A0 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A44E2823B20F008B48A0 /* OnBoardingCollectionViewCell.swift */; };
+		FF52A4512823B45A008B48A0 /* OnBoardingModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A4502823B45A008B48A0 /* OnBoardingModelClass.swift */; };
 		FF60E9DB281B987000700D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DA281B987000700D20 /* AppDelegate.swift */; };
 		FF60E9DD281B987000700D20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DC281B987000700D20 /* SceneDelegate.swift */; };
 		FF60E9DF281B987000700D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DE281B987000700D20 /* ViewController.swift */; };
@@ -48,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF52A4482822C0C6008B48A0 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		FF52A44C2823AFAB008B48A0 /* FinProOnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProOnBoardingViewController.swift; sourceTree = "<group>"; };
+		FF52A44E2823B20F008B48A0 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF52A4502823B45A008B48A0 /* OnBoardingModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModelClass.swift; sourceTree = "<group>"; };
 		FF60E9D7281B987000700D20 /* FinPro_UI_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinPro_UI_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF60E9DA281B987000700D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF60E9DC281B987000700D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF52A4472822C093008B48A0 /* FinProOnBoardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FF52A4482822C0C6008B48A0 /* OnBoarding.storyboard */,
+				FF52A44C2823AFAB008B48A0 /* FinProOnBoardingViewController.swift */,
+				FF52A44E2823B20F008B48A0 /* OnBoardingCollectionViewCell.swift */,
+				FF52A4502823B45A008B48A0 /* OnBoardingModelClass.swift */,
+			);
+			path = FinProOnBoardingScreen;
+			sourceTree = "<group>";
+		};
 		FF60E9CE281B987000700D20 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +142,7 @@
 		FF60E9D9281B987000700D20 /* FinPro_UI_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				FF52A4472822C093008B48A0 /* FinProOnBoardingScreen */,
 				FF87DACE2820F9A10014DB09 /* Fonts */,
 				FF60EA0A281B992100700D20 /* FinPro_Custom_Control */,
 				FF60E9DA281B987000700D20 /* AppDelegate.swift */,
@@ -311,6 +331,7 @@
 				FF60E9E4281B987100700D20 /* Assets.xcassets in Resources */,
 				FF87DAD42820FA590014DB09 /* Inter-Medium.ttf in Resources */,
 				FF87DAD12820F9C30014DB09 /* Inter-Regular.ttf in Resources */,
+				FF52A4492822C0C6008B48A0 /* OnBoarding.storyboard in Resources */,
 				FF60E9E2281B987000700D20 /* Main.storyboard in Resources */,
 				FF87DAD22820F9C30014DB09 /* Inter-SemiBold.ttf in Resources */,
 			);
@@ -342,12 +363,15 @@
 				FF87DADB282100BB0014DB09 /* UIViewExtension.swift in Sources */,
 				FF87DAD7282100870014DB09 /* UIViewControllerExtension.swift in Sources */,
 				FF894DD3281FF4A5002321CB /* FinProTextFieldPassword.swift in Sources */,
+				FF52A4512823B45A008B48A0 /* OnBoardingModelClass.swift in Sources */,
 				FF87DADE28212BBA0014DB09 /* FinProBaseLabel.swift in Sources */,
 				FF60E9DB281B987000700D20 /* AppDelegate.swift in Sources */,
+				FF52A44F2823B20F008B48A0 /* OnBoardingCollectionViewCell.swift in Sources */,
 				FF87DAD9282100AD0014DB09 /* UIScrollViewExtension.swift in Sources */,
 				FF60EA0E281BA27400700D20 /* FinProButton.swift in Sources */,
 				FF60EA0C281B9B1900700D20 /* FinProLabel.swift in Sources */,
 				FF60E9DD281B987000700D20 /* SceneDelegate.swift in Sources */,
+				FF52A44D2823AFAB008B48A0 /* FinProOnBoardingViewController.swift in Sources */,
 				FF894DCF281FF0A9002321CB /* FinProTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -129,3 +129,24 @@ class FinProH5MediumLabel : UILabel {
     }
 }
 
+class FinProH1SemiBoldLabel : UILabel {
+    
+    func setup() {
+        self.font = UIFont(name: "Inter-SemiBold", size: 28)
+        self.textColor = UIColor.neutral100
+        self.backgroundColor = UIColor.white
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineHeightMultiple = 1.3
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setup()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+}
+
