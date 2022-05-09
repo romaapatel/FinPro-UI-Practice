@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF52A43E28224C74008B48A0 /* FinProProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF52A43D28224C74008B48A0 /* FinProProfile.storyboard */; };
+		FF52A44028227B22008B48A0 /* FinProProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A43F28227B22008B48A0 /* FinProProfileViewController.swift */; };
+		FF52A44228227CDB008B48A0 /* ProfileModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A44128227CDB008B48A0 /* ProfileModelClass.swift */; };
+		FF52A4442822939D008B48A0 /* FinProProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A4432822939D008B48A0 /* FinProProfileTableViewCell.swift */; };
+		FF52A44628229D8A008B48A0 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF52A44528229D8A008B48A0 /* UIImageView.swift */; };
 		FF60E9DB281B987000700D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DA281B987000700D20 /* AppDelegate.swift */; };
 		FF60E9DD281B987000700D20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DC281B987000700D20 /* SceneDelegate.swift */; };
 		FF60E9DF281B987000700D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9DE281B987000700D20 /* ViewController.swift */; };
@@ -48,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF52A43D28224C74008B48A0 /* FinProProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinProProfile.storyboard; sourceTree = "<group>"; };
+		FF52A43F28227B22008B48A0 /* FinProProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProProfileViewController.swift; sourceTree = "<group>"; };
+		FF52A44128227CDB008B48A0 /* ProfileModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModelClass.swift; sourceTree = "<group>"; };
+		FF52A4432822939D008B48A0 /* FinProProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProProfileTableViewCell.swift; sourceTree = "<group>"; };
+		FF52A44528229D8A008B48A0 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		FF60E9D7281B987000700D20 /* FinPro_UI_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinPro_UI_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF60E9DA281B987000700D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF60E9DC281B987000700D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +110,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF52A43C28224C5A008B48A0 /* FinPro_Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FF52A43D28224C74008B48A0 /* FinProProfile.storyboard */,
+				FF52A43F28227B22008B48A0 /* FinProProfileViewController.swift */,
+				FF52A44128227CDB008B48A0 /* ProfileModelClass.swift */,
+				FF52A4432822939D008B48A0 /* FinProProfileTableViewCell.swift */,
+			);
+			path = FinPro_Profile;
+			sourceTree = "<group>";
+		};
 		FF60E9CE281B987000700D20 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +144,7 @@
 		FF60E9D9281B987000700D20 /* FinPro_UI_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				FF52A43C28224C5A008B48A0 /* FinPro_Profile */,
 				FF87DACE2820F9A10014DB09 /* Fonts */,
 				FF60EA0A281B992100700D20 /* FinPro_Custom_Control */,
 				FF60E9DA281B987000700D20 /* AppDelegate.swift */,
@@ -182,6 +204,7 @@
 				FF87DAD6282100870014DB09 /* UIViewControllerExtension.swift */,
 				FF87DAD8282100AD0014DB09 /* UIScrollViewExtension.swift */,
 				FF87DADA282100BB0014DB09 /* UIViewExtension.swift */,
+				FF52A44528229D8A008B48A0 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -313,6 +336,7 @@
 				FF87DAD12820F9C30014DB09 /* Inter-Regular.ttf in Resources */,
 				FF60E9E2281B987000700D20 /* Main.storyboard in Resources */,
 				FF87DAD22820F9C30014DB09 /* Inter-SemiBold.ttf in Resources */,
+				FF52A43E28224C74008B48A0 /* FinProProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,14 +365,18 @@
 				FF894DD1281FF244002321CB /* UIColorExtension.swift in Sources */,
 				FF87DADB282100BB0014DB09 /* UIViewExtension.swift in Sources */,
 				FF87DAD7282100870014DB09 /* UIViewControllerExtension.swift in Sources */,
+				FF52A44228227CDB008B48A0 /* ProfileModelClass.swift in Sources */,
 				FF894DD3281FF4A5002321CB /* FinProTextFieldPassword.swift in Sources */,
 				FF87DADE28212BBA0014DB09 /* FinProBaseLabel.swift in Sources */,
 				FF60E9DB281B987000700D20 /* AppDelegate.swift in Sources */,
+				FF52A44628229D8A008B48A0 /* UIImageView.swift in Sources */,
 				FF87DAD9282100AD0014DB09 /* UIScrollViewExtension.swift in Sources */,
 				FF60EA0E281BA27400700D20 /* FinProButton.swift in Sources */,
 				FF60EA0C281B9B1900700D20 /* FinProLabel.swift in Sources */,
+				FF52A44028227B22008B48A0 /* FinProProfileViewController.swift in Sources */,
 				FF60E9DD281B987000700D20 /* SceneDelegate.swift in Sources */,
 				FF894DCF281FF0A9002321CB /* FinProTextField.swift in Sources */,
+				FF52A4442822939D008B48A0 /* FinProProfileTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
