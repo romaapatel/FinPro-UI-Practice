@@ -44,4 +44,55 @@ class FinProTextField: UITextField {
         setup()
     }
     
+    public func validate(validationType: ValidationTypes) -> Bool {
+           switch(validationType) {
+           case .email: return validateEmail()
+           case .password: return validatePassword()
+           case .requiredField: return validateRequired()
+           }
+       }
+       private func validateEmail() -> Bool {
+           let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+           let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailFormat)
+           if(emailPredicate.evaluate(with: self.text ?? "")) {
+               self.layer.borderWidth = 0
+               self.layer.borderColor = nil
+               return true
+           } else {
+               self.layer.borderColor = UIColor.red.cgColor
+               self.layer.borderWidth = 1
+               self.window?.rootViewController?.makeAlert(title: "Error", message: "Enter Email")
+               return false
+           }
+       }
+       private func validatePassword() -> Bool {
+           if(self.text?.count ?? -1 > 5) {
+               self.layer.borderWidth = 0
+               self.layer.borderColor = nil
+               return true
+           } else {
+               self.layer.borderColor = UIColor.red.cgColor
+               self.layer.borderWidth = 1
+               self.window?.rootViewController?.makeAlert(title: "Error", message: "Password must have atleast 6 character")
+               return false
+           }
+       }
+       private func validateRequired() -> Bool {
+           if(!(self.text?.isEmpty ?? true)) {
+               self.layer.borderWidth = 0
+               self.layer.borderColor = nil
+               return true
+           } else {
+               self.layer.borderColor = UIColor.red.cgColor
+               self.layer.borderWidth = 1
+               self.window?.rootViewController?.makeAlert(title: "Error", message: "This field is required")
+               return false
+           }
+       }
+}
+
+enum ValidationTypes {
+    case email;
+    case password;
+    case requiredField
 }

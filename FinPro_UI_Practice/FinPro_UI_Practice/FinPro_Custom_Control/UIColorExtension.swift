@@ -14,5 +14,6 @@ extension UIColor {
     static let neutral70: UIColor = UIColor(named: "Neutral70") ?? UIColor.black
     static let neutral100: UIColor = UIColor(named: "Neutral100") ?? UIColor.black
     static let neutral60: UIColor = UIColor(named: "Neutral60") ?? UIColor.black
+    static let primaryGreen: UIColor = UIColor(named: "PrimaryGreen") ?? UIColor.black
     static let semanticRed: UIColor = UIColor(named: "SemanticRed") ?? UIColor.white
 }

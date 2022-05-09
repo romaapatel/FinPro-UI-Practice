@@ -50,5 +50,4 @@ class FinProTextFieldPassword: FinProTextField {
             imageIcon.imageView?.image?.withRenderingMode(.alwaysTemplate)
         }
     }
-    
 }

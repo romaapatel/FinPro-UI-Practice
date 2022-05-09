@@ -19,13 +19,13 @@ extension UIScrollView {
         guard let viewController = self.parentViewController else { return }
         keyboardFrame = viewController.view.convert(keyboardFrame, from: nil)
         
-        var contentInset:UIEdgeInsets = self.contentInset
+        var contentInset: UIEdgeInsets = self.contentInset
         contentInset.bottom = keyboardFrame.size.height + 100
         self.contentInset = contentInset
     }
     
     @objc func keyboardDisappear(notification:NSNotification) {
-        let contentInset:UIEdgeInsets = UIEdgeInsets.zero
+        let contentInset: UIEdgeInsets = UIEdgeInsets.zero
         self.contentInset = contentInset
     }
 }
