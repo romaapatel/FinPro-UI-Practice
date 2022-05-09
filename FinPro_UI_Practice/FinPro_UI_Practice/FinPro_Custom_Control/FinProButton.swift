@@ -15,8 +15,13 @@ class FinProButton : UIButton {
         self.clipsToBounds = true
         self.configuration?.contentInsets.top = 13
         self.configuration?.contentInsets.bottom = 13
+        self.backgroundColor = UIColor.primaryGreen
         self.titleLabel?.font = UIFont(name: "Inter-Medium", size: 16)
         self.setTitleColor(UIColor.neutral10, for: .normal)
+    }
+    
+    override func titleColor(for state: UIControl.State) -> UIColor? {
+        return UIColor.neutral10
     }
     
     @IBInspectable public var buttonRadius: Int = 0 {
