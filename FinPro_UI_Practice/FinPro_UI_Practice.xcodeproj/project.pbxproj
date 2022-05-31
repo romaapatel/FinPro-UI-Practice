@@ -16,6 +16,18 @@
 		FF60E9F2281B987100700D20 /* FinPro_UI_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9F1281B987100700D20 /* FinPro_UI_PracticeTests.swift */; };
 		FF60E9FC281B987100700D20 /* FinPro_UI_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9FB281B987100700D20 /* FinPro_UI_PracticeUITests.swift */; };
 		FF60E9FE281B987100700D20 /* FinPro_UI_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60E9FD281B987100700D20 /* FinPro_UI_PracticeUITestsLaunchTests.swift */; };
+		FF60EA0C281B9B1900700D20 /* FinProLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60EA0B281B9B1900700D20 /* FinProLabel.swift */; };
+		FF60EA0E281BA27400700D20 /* FinProButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF60EA0D281BA27400700D20 /* FinProButton.swift */; };
+		FF87DAD12820F9C30014DB09 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF87DACF2820F9C30014DB09 /* Inter-Regular.ttf */; };
+		FF87DAD22820F9C30014DB09 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF87DAD02820F9C30014DB09 /* Inter-SemiBold.ttf */; };
+		FF87DAD42820FA590014DB09 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF87DAD32820FA590014DB09 /* Inter-Medium.ttf */; };
+		FF87DAD7282100870014DB09 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87DAD6282100870014DB09 /* UIViewControllerExtension.swift */; };
+		FF87DAD9282100AD0014DB09 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87DAD8282100AD0014DB09 /* UIScrollViewExtension.swift */; };
+		FF87DADB282100BB0014DB09 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87DADA282100BB0014DB09 /* UIViewExtension.swift */; };
+		FF87DADE28212BBA0014DB09 /* FinProBaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87DADD28212BBA0014DB09 /* FinProBaseLabel.swift */; };
+		FF894DCF281FF0A9002321CB /* FinProTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF894DCE281FF0A9002321CB /* FinProTextField.swift */; };
+		FF894DD1281FF244002321CB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF894DD0281FF244002321CB /* UIColorExtension.swift */; };
+		FF894DD3281FF4A5002321CB /* FinProTextFieldPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF894DD2281FF4A5002321CB /* FinProTextFieldPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		FF60E9F7281B987100700D20 /* FinPro_UI_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinPro_UI_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF60E9FB281B987100700D20 /* FinPro_UI_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinPro_UI_PracticeUITests.swift; sourceTree = "<group>"; };
 		FF60E9FD281B987100700D20 /* FinPro_UI_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinPro_UI_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF60EA0B281B9B1900700D20 /* FinProLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProLabel.swift; sourceTree = "<group>"; };
+		FF60EA0D281BA27400700D20 /* FinProButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProButton.swift; sourceTree = "<group>"; };
+		FF87DACF2820F9C30014DB09 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FF87DAD02820F9C30014DB09 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF87DAD32820FA590014DB09 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		FF87DAD6282100870014DB09 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		FF87DAD8282100AD0014DB09 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
+		FF87DADA282100BB0014DB09 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FF87DADD28212BBA0014DB09 /* FinProBaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProBaseLabel.swift; sourceTree = "<group>"; };
+		FF894DCE281FF0A9002321CB /* FinProTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProTextField.swift; sourceTree = "<group>"; };
+		FF894DD0281FF244002321CB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FF894DD2281FF4A5002321CB /* FinProTextFieldPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProTextFieldPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,8 @@
 		FF60E9D9281B987000700D20 /* FinPro_UI_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				FF87DACE2820F9A10014DB09 /* Fonts */,
+				FF60EA0A281B992100700D20 /* FinPro_Custom_Control */,
 				FF60E9DA281B987000700D20 /* AppDelegate.swift */,
 				FF60E9DC281B987000700D20 /* SceneDelegate.swift */,
 				FF60E9DE281B987000700D20 /* ViewController.swift */,
@@ -125,6 +151,56 @@
 				FF60E9FD281B987100700D20 /* FinPro_UI_PracticeUITestsLaunchTests.swift */,
 			);
 			path = FinPro_UI_PracticeUITests;
+			sourceTree = "<group>";
+		};
+		FF60EA0A281B992100700D20 /* FinPro_Custom_Control */ = {
+			isa = PBXGroup;
+			children = (
+				FF87DADC28212BA70014DB09 /* FinProLabel */,
+				FF87DAD5282100740014DB09 /* Extensions */,
+				FF894DCD281FF092002321CB /* FinProTextField */,
+				FF60EA0B281B9B1900700D20 /* FinProLabel.swift */,
+				FF60EA0D281BA27400700D20 /* FinProButton.swift */,
+				FF894DD0281FF244002321CB /* UIColorExtension.swift */,
+			);
+			path = FinPro_Custom_Control;
+			sourceTree = "<group>";
+		};
+		FF87DACE2820F9A10014DB09 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FF87DAD32820FA590014DB09 /* Inter-Medium.ttf */,
+				FF87DACF2820F9C30014DB09 /* Inter-Regular.ttf */,
+				FF87DAD02820F9C30014DB09 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FF87DAD5282100740014DB09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF87DAD6282100870014DB09 /* UIViewControllerExtension.swift */,
+				FF87DAD8282100AD0014DB09 /* UIScrollViewExtension.swift */,
+				FF87DADA282100BB0014DB09 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF87DADC28212BA70014DB09 /* FinProLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FF87DADD28212BBA0014DB09 /* FinProBaseLabel.swift */,
+			);
+			path = FinProLabel;
+			sourceTree = "<group>";
+		};
+		FF894DCD281FF092002321CB /* FinProTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FF894DCE281FF0A9002321CB /* FinProTextField.swift */,
+				FF894DD2281FF4A5002321CB /* FinProTextFieldPassword.swift */,
+			);
+			path = FinProTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +309,10 @@
 			files = (
 				FF60E9E7281B987100700D20 /* LaunchScreen.storyboard in Resources */,
 				FF60E9E4281B987100700D20 /* Assets.xcassets in Resources */,
+				FF87DAD42820FA590014DB09 /* Inter-Medium.ttf in Resources */,
+				FF87DAD12820F9C30014DB09 /* Inter-Regular.ttf in Resources */,
 				FF60E9E2281B987000700D20 /* Main.storyboard in Resources */,
+				FF87DAD22820F9C30014DB09 /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +338,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF60E9DF281B987000700D20 /* ViewController.swift in Sources */,
+				FF894DD1281FF244002321CB /* UIColorExtension.swift in Sources */,
+				FF87DADB282100BB0014DB09 /* UIViewExtension.swift in Sources */,
+				FF87DAD7282100870014DB09 /* UIViewControllerExtension.swift in Sources */,
+				FF894DD3281FF4A5002321CB /* FinProTextFieldPassword.swift in Sources */,
+				FF87DADE28212BBA0014DB09 /* FinProBaseLabel.swift in Sources */,
 				FF60E9DB281B987000700D20 /* AppDelegate.swift in Sources */,
+				FF87DAD9282100AD0014DB09 /* UIScrollViewExtension.swift in Sources */,
+				FF60EA0E281BA27400700D20 /* FinProButton.swift in Sources */,
+				FF60EA0C281B9B1900700D20 /* FinProLabel.swift in Sources */,
 				FF60E9DD281B987000700D20 /* SceneDelegate.swift in Sources */,
+				FF894DCF281FF0A9002321CB /* FinProTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
