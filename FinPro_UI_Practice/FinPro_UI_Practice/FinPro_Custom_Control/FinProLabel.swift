@@ -20,7 +20,7 @@ class FinProLabel : UILabel {
         self.textColor = UIColor.neutral100
     }
     
-    @IBInspectable public var textFont : String = ""{
+    @IBInspectable public var textFont : String = "" {
         didSet {
             switch (textFont) {
             case "H7Regular":
